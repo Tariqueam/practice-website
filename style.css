@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poiret One', cursive;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange-color {
+    color: chocolate;
+}
+
+.flexible-area {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    background-color: coral;
+    background-image: linear-gradient(coral, tomato);
+}
+
+.top-banner {
+    background-image: url(Images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-area {
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-big {
+    padding: auto;
+}
+
+.dev-exp {
+    text-align: center;
+}
+
+.single-experience {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #d1de4482, tomato);
+    border-image-slice: 1;
+}
+
+#learner {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #de445d59, #c244e2);
+    border-image-slice: 1;
+    padding-bottom: 55px;
+}
+
+.experience-area {
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+footer p {
+    text-align: center;
+    font-size: 20px;
+}
